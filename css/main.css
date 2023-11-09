@@ -1,0 +1,36 @@
+header {
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    text-shadow: 1px 1px 3px black;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    color: #000;
+}
+
+.container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+.text-orange {
+    color: #e27601;
+}
+
+.bg-orange {
+    background: #e27601;
+}
+
+@media (min-width: 1536px) {
+    .gap50 {
+        gap: 52px;
+    }
+}
+
+footer {
+    background: url("../img/footer-bg.jpg") no-repeat center;
+    background-size: cover;
+    text-shadow: 1px 1px 3px black;
+    color: white;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="text-white pt-4 md:pt-8 xl:pt-16 pb-4 md:pb-8 xl:pb-16">
+    <div class="container">
+      <div class="flex items-center gap-4 xl:gap-16 mb-8 md:mb-2">
+        <img style="max-width: 350px" class="w-1/3 md:w-3/4 xl:w-sm cursor-pointer" src="img/logo.png" alt="Logo">
+        <h1 class="text-center transform -translate-y-1/4 mx-auto">
+          <span class="text-sm md:text-3xl xl:text-6xl">Ковдра</span>
+          <br>
+          <span class="text-md md:text-4xl xl:text-7xl">Fine Dream Summer</span>
+        </h1>
+      </div>
+      <div class="flex relative">
+        <img style="z-index: 2" src="img/blanket-1.png" alt="Blanket 1">
+        <img style="z-index: 1"  class="absolute right-0 md:right-10 bottom-12"  src="img/blanket-2.png" alt="Blanket 2">
+      </div>
+      <div class="flex flex-col items-center text-center gap-8 sm:text-left sm:items-start sm:flex-row justify-between mb-16">
+        <div>
+          <h3 class="sm:text-xl	md:text-2xl md:text-4xl mb-2">Наповнювач:</h3>
+          <p class="sm:text-sm md:text-1xl md:text-3xl">антиалергійне 100%</p>
+          <p class="sm:text-sm md:text-1xl md:text-3xl">силіконізоване волокно</p>
+        </div>
+        <div>
+          <h3 class="sm:text-xl md:text-2xl md:text-4xl mb-2">Тканина чохла:</h3>
+          <p class="sm:text-sm md:text-1xl md:text-3xl">Мікрофібра</p>
+        </div>
+      </div>
+      <div class="flex justify-between whitespace-nowrap">
+        <div class="flex items-center gap-1 sm:gap-4">
+          <img class="w-1/6 sm:w-1/4 xl:w-full" src="img/checkmark.png" alt="Checkmark">
+          <p class="text-sm sm:text-1xl xl:text-4xl">Висока якість</p>
+        </div>
+        <div class="flex justify-end items-center gap-1 sm:gap-4">
+          <img class="w-1/6 sm:w-1/4 xl:w-full" src="img/goods-checkmark.png" alt="Goods Checkmark">
+          <p class="text-sm sm:text-1xl xl:text-4xl">Гіпоалергенна</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="mb-4 md:mb-10">
+      <div class="container">
+        <img class="py-8" src="img/blanket-description.png" alt="Blanket Description">
+        <div class="flex flex-col gap-10 xl:gap-0 text-center lg:text-left">
+          <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 items-center">
+            <img src="img/white-cover.png" alt="White Cover">
+            <div>
+              <h4 class="text-orange text-2xl sm:text-5xl mb-2">Чохол з білої мікрофібри </h4>
+              <p class="text-1xl sm:text-3xl">Міцна тканина, яка не тільки приємна на дотик, але й має терморегулюючі властивості, що допомагають уникнути статичної напруги.</p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 items-center">
+            <div>
+              <h4 class="text-orange text-2xl sm:text-5xl mb-2">Хлопкопон</h4>
+              <p class="text-1xl sm:text-3xl">Силіконізоване волокно з щільністю 200 г/м2. Цей наповнювач забезпечує м’якість і комфорт під час сну. Хлопкопон — це сучасний матеріал зі штучних волокон, який має високу еластичність і зберігає свою форму впродовж довгого періоду часу. Крім того, він забезпечує оптимальну циркуляцію повітря, що сприяє комфортній температурі під час сну.</p>
+            </div>
+            <img class="order-first lg:order-last" src="img/cotton.png" alt="Cotton">
+          </div>
+          <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 items-center">
+            <img src="img/quilted-blanket.png" alt="Cotton">
+            <div>
+              <h4 class="text-orange text-2xl sm:text-5xl mb-2">Ковдра стьобана</h4>
+              <p class="text-1xl sm:text-3xl">Ковдра має стьобану лініями поверхню з малюнком тиснявою “прямокутник”, що не лише зберігає форму виробу, але й надає йому привабливий зовнішній вигляд.</p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 items-center">
+            <div>
+              <h4 class="text-orange text-2xl sm:text-5xl mb-2">Оздоблена білим кантом Тік (коса бейка) </h4>
+              <p class="text-1xl sm:text-3xl">Це надає ковдрі привабливий зовнішній вигляд.</p>
+            </div>
+            <img class="order-first lg:order-last" src="img/decorated-in-white.png" alt="Decorated in White">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pt-10">
+    <div class="container">
+      <h2 class="uppercase text-center text-2xl md:text-5xl mb-4">Таблиця порівняння</h2>
+      <div class="flex flex-col 2xl 2xl:flex-row gap-8 justify-between mb-16">
+        <div>
+          <img class="mx-auto w-1/2 xl:w-full" style="max-width: 645px" src="img/blanket-1.png" alt="Blanket 1">
+          <h5 class="text-xl md:text-5xl text-center mb-2 md:mb-4">Fine Dream Summer</h5>
+          <div class="flex flex-col gap-2">
+            <div>
+              <p class="text-orange text-xl md:text-3xl mb-2">Розмір</p>
+              <div class="bg-orange px-4 md:px-8 py-3 md:py-6 text-center text-xl md:text-3xl rounded-md text-center">
+                140х205 / 155х205 / 170х210 / 200х220 см
+              </div>
+            </div>
+            <div>
+              <p class="text-orange text-xl md:text-3xl mb-2">Тканина чохла</p>
+              <div class="bg-orange px-4 md:px-8 py-3 md:py-6 text-center text-xl md:text-3xl rounded-md text-center">
+                Мікрофібра
+              </div>
+            </div>
+            <div>
+              <p class="text-orange text-xl md:text-3xl mb-2">Наповнення</p>
+              <div class="bg-orange px-4 md:px-8 py-3 md:py-6 text-center text-xl md:text-3xl rounded-md text-center">
+                Хлопкопон
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <img class="mx-auto 2xl:mx-0 w-1/2 2xl:w-full" src="img/blanket-3.png" alt="Blanket 3">
+          <h5 class="text-xl md:text-5xl text-center mb-2 md:mb-4 2xl:mb-0">Fine Ortick Spring</h5>
+          <div class="flex flex-col gap-2 mt-auto gap-2 gap50">
+            <div>
+              <p class="text-orange text-xl md:text-3xl mb-2 block 2xl:hidden">Розмір</p>
+              <div class="bg-orange px-4 md:px-8 py-3 md:py-6 text-center text-xl md:text-3xl rounded-md text-center">
+                140х205 / 155х205 / 170х210 / 200х220 см
+              </div>
+            </div>
+            <div>
+              <p class="text-orange text-xl md:text-3xl mb-2 block 2xl:hidden">Тканина чохла</p>
+              <div class="bg-orange px-4 md:px-8 py-3 md:py-6 text-center text-xl md:text-3xl rounded-md text-center">
+                Поліестер
+              </div>
+            </div>
+            <div>
+              <p class="text-orange text-xl md:text-3xl mb-2 block 2xl:hidden">Наповнення</p>
+              <div class="bg-orange px-4 md:px-8 py-3 md:py-6 text-center text-xl md:text-3xl rounded-md text-center">
+                Хлопкопон
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-center uppercase text-1xl md:text-3xl xl:text-7xl pb-96">
+        Здоровий сон починається з
+        <br>
+        <span class="text-2xl md:text-4xl xl:text-8xl">Smart</span>
+      </h3>
+    </div>
+  </footer>
+</body>
+</html>
